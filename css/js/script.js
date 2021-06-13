@@ -40,3 +40,8 @@ function gender() {
         return false;
     }
 }
+
+function allLetters(input) {
+    var characters = /[^a-z]/gi;
+    input.value = input.value.replace(characters, "");
+}
