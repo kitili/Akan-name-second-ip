@@ -10,5 +10,7 @@ function date() {
 }
 
 function month() {
-    var month = document.getElementById("month").value;
-    if (month == "0") {
+    alert("PLease fill in the Month");
+    return false;
+}
+}
