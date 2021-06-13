@@ -7,3 +7,8 @@ function date() {
         alert("Please fill in the Date ");
         return false;
     }
+}
+
+function month() {
+    var month = document.getElementById("month").value;
+    if (month == "0") {
