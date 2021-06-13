@@ -110,3 +110,42 @@ function formData() {
     } else if (weekDay === 'Monday' && gender == 2) {
         document.getElementById("output").value = "You were born on Monday: Your Akan Name is: " + akanMale[1] + ".It is associated with: " + association[1];
         return true;
+    } else if (weekDay === 'Tuesday' && gender == 2) {
+        document.getElementById("output").value = "You were born on Tuesday: Your Akan Name is: " + akanMale[2] + ".It is associated with: " + association[2];
+        return true;
+    } else if (weekDay === 'Wednesday' && gender == 2) {
+        document.getElementById("output").value = "You were born on Wednesday: Your Akan Name is: " + akanMale[3] + ".It is associated with: " + association[3];
+        return true;
+    } else if (weekDay === 'Wednesday' && gender == 3) {
+        document.getElementById("output").value = "You were born on Wednesday: Your Akan Name is: " + akanFemale[3] + ".It is associated with: " + association[3];
+        return true;
+    } else if (weekDay === 'Thursday' && gender == 2) {
+        document.getElementById("output").value = "You were born on Thursday: Your Akan Name is: " + akanMale[4] + ".It is associated with: " + association[4];
+        return true;
+    } else if (weekDay === 'Thursday' && gender == 3) {
+        document.getElementById("output").value = "You were born on Thursday: Your Akan Name is: " + akanFemale[4] + ".It is associated with: " + association[4];
+        return true;
+    } else if (weekDay === 'Friday' && gender == 2) {
+        document.getElementById("output").value = "You were born on Friday: Your Akan Name is: " + akanMale[5] + ".It is associated with: " + association[5];
+        return true;
+    } else if (weekDay === 'Friday' && gender == 3) {
+        document.getElementById("output").value = "You were born on Friday: Your Akan Name is: " + akanFemale[5] + ".It is associated with: " + association[5];
+        return true;
+    } else if (weekDay === 'saturday' && gender == 2) {
+        document.getElementById("output").value = "You were born on Saturday: Your Akan Name is: " + akanMale[6] + ".It is associated with: " + association[6];
+        return true;
+    } else if (weekDay === 'Saturday' && gender == 3) {
+        {
+            document.getElementById("output").value = "You were born on Saturday: Your Akan Name is: " + akanFemale[6] + ".It is associated with: " + association[6];
+            return true;
+        }
+    }
+}
+
+function clearForm() {
+    document.getElementById("form").reset();
+}
+
+function clear() {
+    document.getElementById("answer").reset();
+}
