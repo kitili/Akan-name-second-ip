@@ -30,6 +30,12 @@ body {
     height: auto;
 }
 
+.paragraph {
+    color: greenyellow;
+    text-shadow: 3px 2px 2px black;
+    font-size: 20px;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
