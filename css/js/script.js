@@ -103,4 +103,10 @@ function formData() {
     if (weekDay === 'Sunday' && gender == 2) {
         document.getElementById("output").value = "You were born on Sunday: Your Akan Name is: " + akanMale[0] + ".It is associated with: " + association[0];
         return true;
-    }
+    } else if (weekDay === 'Sunday' && gender == 3) {
+        document.getElementById("output").value = "You were born on Sunday: Your Akan Name is: " + akanFemale[0] + ".It is associated with: " + association[0];
+        return true;
+
+    } else if (weekDay === 'Monday' && gender == 2) {
+        document.getElementById("output").value = "You were born on Monday: Your Akan Name is: " + akanMale[1] + ".It is associated with: " + association[1];
+        return true;
