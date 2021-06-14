@@ -8,15 +8,10 @@
 }
 
 body {
-    overflow: ;
     background-image: url(/images/6484fddffa84d76d6504d9a03cf1a7fa.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.svgco {
-    margin-top: 16rem;
 }
 
 .sunday {
@@ -24,10 +19,11 @@ body {
 }
 
 .AKANNAMEGENERATOR {
-    position: relative;
+    position: 40rem;
     top: -38.5rem;
     width: 75%;
     height: auto;
+    color: goldenrod;
 }
 
 .paragraph {
@@ -51,4 +47,13 @@ th {
 
 tr:nth-child(even) {
     background-color: #DDDDDD;
+}
+
+.form {
+    position: relative;
+    top: -40rem;
+    left: 64rem;
+    width: 30%;
+    height: 20vh;
+    color: limegreen;
 }
