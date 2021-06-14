@@ -1,75 +1,66 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-.menu-flex {
-    display: flex;
-}
-
-body {
-    background-image: url(/images/6484fddffa84d76d6504d9a03cf1a7fa.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.cont {
-    height: 90vh;
-}
-
-.svgco {
-    margin-top: 10rem;
-}
-
-.sunday {
-    width: 50%;
-}
-
-.AKANNAMEGENERATOR {
-    position: 40rem;
-    top: -38.5rem;
-    width: 75%;
-    height: auto;
-    color: goldenrod;
-    color: indigo;
-    ;
-}
-
-.paragraph {
-    color: greenyellow;
-    text-shadow: 3px 2px 2px black;
-    font-size: 80px;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td,
-th {
-    border: 1px solid #DDDDDD;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #DDDDDD;
-}
-
-.form {
-    position: relative;
-    top: -40rem;
-    left: 64rem;
-    width: 30%;
-    height: 20vh;
-    color: limegreen;
-    positions: absolute;
-    top: 5rem;
-    left: 50rem;
-    width: 50%;
-    height: 5vh;
-    color: darkslateblue;
-}
+  * {
+      margin: 2px;
+      padding: 4px;
+  }
+  
+  .menu-flex {
+      display: flex;
+  }
+  
+  body {
+      background-image: url(/images/6484fddffa84d76d6504d9a03cf1a7fa.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  
+  .cont {
+      height: 90vh;
+  }
+  
+  .svgco {
+      margin-top: 10rem;
+  }
+  
+  .sunday {
+      width: 50%;
+  }
+  
+  .AKANNAMEGENERATOR {
+      position: 40rem;
+      top: -38.5rem;
+      width: 75%;
+      height: auto;
+      color: goldenrod;
+  }
+  
+  .paragraph {
+      color: whitesmoke;
+      text-shadow: 3px 2px 2px black;
+      font-size: 80px;
+  }
+  
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+  
+  td,
+  th {
+      border: 1px solid #DDDDDD;
+      text-align: left;
+      padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+      background-color: #DDDDDD;
+  }
+  
+  .form {
+      position: relative;
+      top: -40rem;
+      left: 64rem;
+      width: 30%;
+      height: 20vh;
+  }
