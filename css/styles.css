@@ -8,15 +8,18 @@
 }
 
 body {
-    overflow: ;
     background-image: url(/images/6484fddffa84d76d6504d9a03cf1a7fa.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.cont {
+    height: 90vh;
+}
+
 .svgco {
-    margin-top: 16rem;
+    margin-top: 10rem;
 }
 
 .sunday {
@@ -28,12 +31,14 @@ body {
     top: -38.5rem;
     width: 75%;
     height: auto;
+    color: indigo;
+    ;
 }
 
 .paragraph {
     color: greenyellow;
     text-shadow: 3px 2px 2px black;
-    font-size: 20px;
+    font-size: 80px;
 }
 
 table {
@@ -51,4 +56,13 @@ th {
 
 tr:nth-child(even) {
     background-color: #DDDDDD;
+}
+
+.form {
+    position: absolute;
+    top: 200px;
+    left: 50rem;
+    width: 50%;
+    height: 40vh;
+    color: darkslateblue;
 }
