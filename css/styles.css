@@ -67,9 +67,9 @@ tr:nth-child(even) {
     height: 20vh;
     color: limegreen;
     positions: absolute;
-    top: 200px;
+    top: 5rem;
     left: 50rem;
     width: 50%;
-    height: 40vh;
+    height: 5vh;
     color: darkslateblue;
 }
