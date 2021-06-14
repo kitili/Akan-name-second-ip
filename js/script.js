@@ -51,4 +51,3 @@ function submition() {
     } else {
         alert("input data please");
     }
-}
