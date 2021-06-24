@@ -1,66 +1,101 @@
-  * {
-      margin: 2px;
-      padding: 4px;
-  }
-  
-  .menu-flex {
-      display: flex;
-  }
-  
-  body {
-      overflow: ;
-      background-image: url(/images/6484fddffa84d76d6504d9a03cf1a7fa.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-  }
-  
-  .cont {
-      height: 90vh;
-  }
-  
-  .svgco {
-      margin-top: 10rem;
-  }
-  
-  .sunday {
-      width: 50%;
-  }
-  
-  .AKANNAMEGENERATOR {
-      position: 40rem;
-      top: -38.5rem;
-      width: 75%;
-      height: auto;
-      color: goldenrod;
-  }
-  
-  .paragraph {
-      color: whitesmoke;
-      text-shadow: 3px 2px 2px black;
-      font-size: 80px;
-  }
-  
-  .table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-  }
-  
-  .th {
-      border: 1px solid #DDDDDD;
-      text-align: left;
-      padding: 8px;
-  }
-  
-  .tr:nth-child(even) {
-      background-color: #DDDDDD;
-  }
-  
-  .form {
-      position: relative;
-      top: -40rem;
-      left: 64rem;
-      width: 30%;
-      height: 20vh;
-  }
+                                                                                         .column {
+                                                                                         padding: 5px;
+                                                                                     }
+                                                                                     
+                                                                                     .row::after {
+                                                                                         content: "";
+                                                                                         clear: inherit;
+                                                                                         display: inherit;
+                                                                                     }
+                                                                                     
+                                                                                     .test-box {
+                                                                                         border-radius: 50%;
+                                                                                         float: left;
+                                                                                         height: 100%;
+                                                                                     }
+                                                                                     
+                                                                                     .table,
+                                                                                     th,
+                                                                                     td {
+                                                                                         border: 1px solid;
+                                                                                         border-collapse: collapse;
+                                                                                         font-style: oblique;
+                                                                                         font-family: cursive;
+                                                                                         font-weight: bold;
+                                                                                     }
+                                                                                     
+                                                                                     th,
+                                                                                     td {
+                                                                                         padding: 5px;
+                                                                                     }
+                                                                                     
+                                                                                     table {
+                                                                                         border-spacing: 5px;
+                                                                                     }
+                                                                                     
+                                                                                     .container {
+                                                                                         float: right;
+                                                                                         font-style: oblique;
+                                                                                         font-weight: normal;
+                                                                                         font-family: cursive;
+                                                                                     }
+                                                                                     
+                                                                                     .btn:hover {
+                                                                                         background-color: images/6484fddffa84d76d6504d9a03cf1a7fajpg;
+                                                                                     }
+                                                                                     
+                                                                                     .btn {
+                                                                                         color: red
+                                                                                     }
+                                                                                     
+                                                                                     h3 {
+                                                                                         font-style: oblique;
+                                                                                         font-weight: bold;
+                                                                                     }
+                                                                                     
+                                                                                     body {
+                                                                                         color: rgb(5, 226, 5);
+                                                                                         background-color: black
+                                                                                     }
+                                                                                     
+                                                                                     h1 {
+                                                                                         color: rgb(211, 197, 4);
+                                                                                         text-align: left;
+                                                                                         font-weight: bolder;
+                                                                                         font-size: 50px;
+                                                                                     }
+                                                                                     
+                                                                                     h2,
+                                                                                     h4 {
+                                                                                         color: rgb(211, 197, 4)
+                                                                                     }
+                                                                                     
+                                                                                     form {
+                                                                                         font-style: oblique;
+                                                                                         font-family: cursive;
+                                                                                         font-weight: bold;
+                                                                                     }
+                                                                                     
+                                                                                     h3 {
+                                                                                         font-weight: bolder;
+                                                                                         font-family: cursive;
+                                                                                         font-size: 5px;
+                                                                                         color: whitesmoke;
+                                                                                     }
+                                                                                     
+                                                                                     textarea {
+                                                                                         margin-top: 10%;
+                                                                                         margin-left: 100%;
+                                                                                         margin-right: 10px;
+                                                                                     }
+                                                                                     
+                                                                                     #output {
+                                                                                         width: 150px;
+                                                                                         height: 100px;
+                                                                                         margin-left: 100px margin-right: 1000px;
+                                                                                         #output {
+                                                                                             width: 800px;
+                                                                                             height: 150px;
+                                                                                             margin-left: 50px;
+                                                                                             margin-right: 50px;
+                                                                                         }
