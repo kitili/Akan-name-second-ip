@@ -31,6 +31,7 @@ function output(event) {
     } else if (document.getElementById("female").checked) {
         alert("your akan name is " + femaleNames[data]);
     }
+    document.querySelector("form").reset()
 
 }
 document.getElementById("submit").addEventListener("click", output)
